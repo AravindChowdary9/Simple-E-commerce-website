@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<title>E_com</title>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: black;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			background-color: ;
+			color: red;
+		}
+
+		.topnav a.active {
+			background-color: blue;
+			color: white;
+		}
+
+		.topnav input[type=text] {
+			float: right;
+			padding: 6px;
+			margin-top: 8px;
+			margin-right: 16px;
+			border: none;
+			font-size: 17px;
+		}
+
+		@media screen and (max-width: 600px) {
+
+			.topnav a,
+			.topnav input[type=text] {
+				float: none;
+				display: block;
+				text-align: left;
+				width: 100%;
+				margin: 0;
+				padding: 14px;
+			}
+
+			.topnav input[type=text] {
+				border: 1px solid #ccc;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="topnav">
+		<a href="s1.html">Home</a>
+		<a href="about.html">Contact</a>
+		<a href="cart.html">Cart</a>
+		<a href="login.html">My Account</a>
+		<input type="text" placeholder="Search..">
+	</div>
+
+	<div style="padding-left:16px">
+
+		<br>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			.column {
+				float: left;
+				width: 25%;
+				padding: 5px;
+			}
+
+			/* Clearfix (clear floats) */
+			.row::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+		</style>
+
+		<body>
+
+			<center>
+				<h2> Gizmos </h2>
+			</center>
+
+			<div class="card">
+				<div class="row">
+					<div class="column">
+
+						<a href="s1.html"><img src="a1.jpg" alt="Snow" style="width:100%">
+
+							<h2>MacBook</h2>
+						</a>
+						<p class="price">$360</p>
+						<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+							8GB DDR4 RAM
+							512GB SSD
+							13.3-inch screen, Intel UHD 620 Graphics
+							Window 10 operating system
+							6 hours battery life, 1.29kg laptop.</p></a>
+						<p><button>Add to Cart</button></p>
+					</div>
+
+					<div class="column">
+
+						<a href="s1.html"><img src="a2.jpg" alt="Snow" style="width:100%">
+
+							<h2>Apple MacBook pro</h2>
+						</a>
+						<p class="price">$360</p>
+						<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+							8GB DDR4 RAM
+							512GB SSD
+							13.3-inch screen, Intel UHD 620 Graphics
+							Window 10 operating system
+							6 hours battery life, 1.29kg laptop.</p>
+						<p><button>Add to Cart</button></p>
+					</div>
+
+					<div class="column">
+
+						<a href="s1.html"><img src="a3.jpg" alt="Snow" style="width:100%">
+
+							<h2>MacBook Air</h2>
+						</a>
+						<p class="price">$19.99</p>
+						<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+							8GB DDR4 RAM
+							512GB SSD
+							13.3-inch screen, Intel UHD 620 Graphics
+							Window 10 operating system
+							6 hours battery life, 1.29kg laptop</p>
+						<p><button>Add to Cart</button></p>
+					</div>
+
+					<div class="column">
+
+						<a href="s1.html"><img src="a4.jpg" alt="Snow" style="width:100%">
+
+							<h2> Mac Pro</h2>
+						</a>
+						<p class="price">$19.99</p>
+						<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+							8GB DDR4 RAM
+							512GB SSD
+							13.3-inch screen, Intel UHD 620 Graphics
+							Window 10 operating system
+							6 hours battery life, 1.29kg laptop.</p>
+						<p><button>Add to Cart</button></p>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="column">
+
+					<a href="s1.html"><img src="v1.jpg" alt="Snow" style="width:100%">
+						<h2>Vivo S1 pro</h2>
+					</a>
+
+					<p class="price">$19.99</p>
+					<p>8 GB RAM | 128 GB ROM | Expandable Upto 256 GB
+						16.59 cm (6.53 inch) Display
+						13MP + 8MP + 2MP + 2MP | 16MP Front Camera
+						5000 mAh Lithium-ion Battery
+						Qualcomm Snapdragon 665 Processor</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+
+				<div class="column">
+
+					<a href="s1.html"><img src="v2.jpg" alt="Snow" style="width:100%">
+
+						<h2>Vivo V9</h2>
+					</a>
+					<p class="price">$19.99</p>
+					<p>8 GB RAM | 128 GB ROM | Expandable Upto 256 GB
+						16.59 cm (6.53 inch) Display
+						13MP + 8MP + 2MP + 2MP | 16MP Front Camera
+						5000 mAh Lithium-ion Battery
+						Qualcomm Snapdragon 665 Processor</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+
+				<div class="column">
+
+					<a href="s1.html"><img src="v3.jpg" alt="Snow" style="width:100%">
+
+						<h2>Vivo V19</h2>
+					</a>
+					<p class="price">$19.99</p>
+					<p>8 GB RAM | 128 GB ROM | Expandable Upto 256 GB
+						16.59 cm (6.53 inch) Display
+						13MP + 8MP + 2MP + 2MP | 16MP Front Camera
+						5000 mAh Lithium-ion Battery
+						Qualcomm Snapdragon 665 Processor</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+
+				<div class="column">
+
+					<a href="s1.html"><img src="v4.jpg" alt="Snow" style="width:100%">
+
+						<h2>Vivo Y12</h2>
+					</a>
+					<p class="price">$19.99</p>
+					<p>8 GB RAM | 128 GB ROM | Expandable Upto 256 GB
+						16.59 cm (6.53 inch) Display
+						13MP + 8MP + 2MP + 2MP | 16MP Front Camera
+						5000 mAh Lithium-ion Battery
+						Qualcomm Snapdragon 665 Processor</p>
+					<p><button>Add to Cart</button></p>
+				</div>
+
+			</div>
+
+	</div>
+
+
+
+	<div class="row">
+		<div class="column">
+
+			<a href="s1.html"><img src="fast.jpg" alt="Snow" style="width:100%">
+
+				<h1>Fastrack Reflex</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Dial Color: black, Case Shape: Square, Dial Glass Material: Mineral
+				Band Color: Gold, Band Material: Stainless Steel
+				Watch Movement Type: Quartz, Watch Display Type: Digital
+				Case Material: Resin, Case Diameter: 34 millimeters
+				Water Resistance Depth: 30 meters, Fold-Over Clasp
+				alarm; light; countdown timer</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+			<a href="s1.html">
+				<img src="fossil.jpg" alt="Snow" style="width:100%">
+
+				<h1>Fossil</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Dial Color: black, Case Shape: Square, Dial Glass Material: Mineral
+				Band Color: Gold, Band Material: Stainless Steel
+				Watch Movement Type: Quartz, Watch Display Type: Digital
+				Case Material: Resin, Case Diameter: 34 millimeters
+				Water Resistance Depth: 30 meters, Fold-Over Clasp
+				alarm; light; countdown timer.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="applew.jpg" alt="Snow" style="width:100%">
+
+				<h1>Apple(with AirPods Pro)</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Dial Color: black, Case Shape: Square, Dial Glass Material: Mineral
+				Band Color: Gold, Band Material: Stainless Steel
+				Watch Movement Type: Quartz, Watch Display Type: Digital
+				Case Material: Resin, Case Diameter: 34 millimeters
+				Water Resistance Depth: 30 meters, Fold-Over Clasp
+				alarm; light; countdown timer.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="rolex.jpg" alt="Snow" style="width:100%">
+
+				<h1>Rolex</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Dial Color: black, Case Shape: Square, Dial Glass Material: Mineral
+				Band Color: Gold, Band Material: Stainless Steel
+				Watch Movement Type: Quartz, Watch Display Type: Digital
+				Case Material: Resin, Case Diameter: 34 millimeters
+				Water Resistance Depth: 30 meters, Fold-Over Clasp
+				alarm; light; countdown timer.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+	</div>
+
+	</div>
+
+
+	<div class="row">
+		<div class="column">
+
+			<a href="s1.html"><img src="i4.jpg" alt="Snow" style="width:100%">
+
+				<h1> Apple iPhone 11 Pro</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>S64 GB ROM
+				11.94 cm (4.7 inch) Retina HD Display
+				12MP Rear Camera | 7MP Front Camera
+				A13 Bionic Chip with 3rd Gen Neural Engine Processor
+				Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)
+				Fast Charge Capable
+				Wireless charging (Works with Qi Chargers | Qi Chargers are Sold Separately.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="i1.jpg" alt="Snow" style="width:100%">
+
+				<h1>Apple iPhone 7</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>64 GB ROM
+				11.94 cm (4.7 inch) Retina HD Display
+				12MP Rear Camera | 7MP Front Camera
+				A13 Bionic Chip with 3rd Gen Neural Engine Processor
+				Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)
+				Fast Charge Capable
+				Wireless charging (Works with Qi Chargers | Qi Chargers are Sold Separately.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="i2.png" alt="Snow" style="width:100%">
+
+				<h1>Apple iPhone 6s</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>64 GB ROM
+				11.94 cm (4.7 inch) Retina HD Display
+				12MP Rear Camera | 7MP Front Camera
+				A13 Bionic Chip with 3rd Gen Neural Engine Processor
+				Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)
+				Fast Charge Capable
+				Wireless charging (Works with Qi Chargers | Qi Chargers are Sold Separately.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="i3.jpg" alt="Snow" style="width:100%">
+
+				<h1>Apple iPhone 11</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>64 GB ROM
+				11.94 cm (4.7 inch) Retina HD Display
+				12MP Rear Camera | 7MP Front Camera
+				A13 Bionic Chip with 3rd Gen Neural Engine Processor
+				Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)
+				Fast Charge Capable
+				Wireless charging (Works with Qi Chargers | Qi Chargers are Sold Separately.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+	</div>
+
+	</div>
+
+
+
+
+	<div class="row">
+		<div class="column">
+
+			<a href="s1.html"><img src="d1.jpg" alt="Snow" style="width:100%">
+
+				<h1>Dell 3593 Inspiron Laptop(10th Gen)</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="l1.jpg" alt="Snow" style="width:100%">
+
+				<h1>Lenovo (8th Gen)</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="h1.jpg" alt="Snow" style="width:100%">
+
+				<h1>HP 15s gr0009au 15.6-inch laptop</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="h2.jpg" alt="Snow" style="width:100%">
+
+				<h1>HP Pavilion x360 14-dh1178tuss</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+	</div>
+
+	</div>
+
+
+
+	<div class="row">
+		<div class="column">
+
+			<a href="s1.html"><img src="l2.jpg" alt="Snow" style="width:100%">
+
+				<h1>Lenovo C31N Ideapad S540 Laptop</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="d2.jpg" alt="Snow" style="width:100%">
+				<h1>Dell Latitude E6330 Laptop</h1>
+			</a>
+
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="d3.jpg" alt="Snow" style="width:100%">
+
+				<h1>Dell Inspiron 15 3584 (C563102WIN9) Laptop</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="d4.jpg" alt="Snow" style="width:100%">
+				<h1>Dell Inspiron 14R N4010 Laptop</h1>
+			</a>
+
+			<p class="price">$19.99</p>
+			<p>1.60GhzGHz Intel Core i5-10210U 10th Gen processor
+				8GB DDR4 RAM
+				512GB SSD
+				13.3-inch screen, Intel UHD 620 Graphics
+				Window 10 operating system
+				6 hours battery life, 1.29kg laptop.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+	</div>
+
+	</div>
+
+
+
+
+	<div class="row">
+		<div class="column">
+
+			<a href="s1.html"><img src="s1.jpg" alt="Snow" style="width:100%">
+
+				<h1>Samsung UA32EH4003R 32 inch LED HD-Ready TV</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Samsung UA32EH4003R 32 inch LED HD-Ready TV features a 32 Inch, LED, HD-Ready, 1366x768 display for your
+				viewing pleasure.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="s2.jpg" alt="Snow" style="width:100%">
+
+				<h1>TCL Led TV</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz
+				Connectivity: 2 HDMI ports to connect set top box, Blu Ray players, gaming console | 1 USB ports to
+				connect hard drives and other USB devices
+				Sound : 20 Watts Output | Dolby Digital Plus
+				Smart TV Features : Voice Assistants | SmartThings App | Personal Computer | Home Cloud | Live Cast |
+				Screen Share | Music System
+				Display : LED Panel | Mega Contrast | PurColor | HD Picture Quality | Slim & Stylish Design
+				Alexa Built-in: Voice control your TV and your day. Just ask Alexa to search for movies, play music,
+				control smart home devices, get sports updates and more.</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"><img src="s3.jpg" alt="Snow" style="width:100%">
+
+				<h1>LG UA32EH4000H 32 inch</h1>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz
+				Connectivity: 2 HDMI ports to connect set top box, Blu Ray players, gaming console | 1 USB ports to
+				connect hard drives and other USB devices
+				Sound : 20 Watts Output | Dolby Digital Plus
+				Smart TV Features : Voice Assistants | SmartThings App | Personal Computer | Home Cloud | Live Cast |
+				Screen Share | Music System
+				Display : LED Panel | Mega Contrast | PurColor | HD Picture Quality | Slim & Stylish Design
+				Alexa Built-in: Voice control your TV and your day. Just ask Alexa to search for movies, play music,
+				control smart home devices, get sports updates and more</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="column">
+
+			<a href="s1.html"> <img src="s4.jpeg" alt="Snow" style="width:100%">
+
+				<h2>Samsung LED TV D8000</h2>
+			</a>
+			<p class="price">$19.99</p>
+			<p>Samsung UA32EH4003R 32 inch LED HD-Ready TV features a 32 Inch, LED, HD-Ready, 1366x768 display for your
+				viewing pleasure..</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+	</div>
+
+	</div>
+</body>
+<center>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 50px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+			color: white;
+		}
+
+		.fa-twitter {
+			background: #55ACEE;
+			color: white;
+		}
+
+		.fa-google {
+			background: #dd4b39;
+			color: white;
+		}
+
+		.fa-yahoo {
+			background: #430297;
+			color: white;
+		}
+
+		.fa-instagram s {
+			background: #430297;
+			color: white;
+		}
+	</style>
+	</head>
+
+	<body>
+
+		<h2>Reach us...</h2>
+
+		<!-- Add font awesome icons -->
+		<a href="https://www.facebook.com/login/s" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+		<a href="https://www.google.com/" class="fa fa-google"></a>
+		<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+
+
+</center>
+
+
+
+
+
+
+
+</html>
